@@ -1,0 +1,167 @@
+📂 portfolio/
+ ┣ 📂 assets/
+ ┃ ┣ project1.png
+ ┃ ┣ project2.png
+ ┃ ┣ project3.png
+ ┣ index.html
+ ┣ style.css
+ ┗ README.md
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizky | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Rizky</h1>
+    <p>Data Analyst | Python • SQL • Power BI</p>
+  </header>
+
+  <!-- About -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Data Analyst bootcamp graduate with experience in 
+      data wrangling, visualization, and building analytical models. 
+      Passionate about turning raw data into actionable insights 
+      to support business decision making.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="project-card">
+      <img src="assets/project1.png" alt="Project 1 Cover">
+      <div>
+        <h3>Customer Churn Analysis</h3>
+        <p>Identified key churn factors using exploratory data analysis and predictive modeling. Recommendations improved retention strategies by 15%.</p>
+        <a href="https://link-to-deck.com" target="_blank">View Full Presentation →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/project2.png" alt="Project 2 Cover">
+      <div>
+        <h3>Hotel Booking Demand Prediction</h3>
+        <p>Built a Random Forest model to predict booking demand with 82% accuracy, helping optimize revenue management.</p>
+        <a href="https://link-to-deck.com" target="_blank">View Full Presentation →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/project3.png" alt="Project 3 Cover">
+      <div>
+        <h3>Sales Dashboard (Power BI)</h3>
+        <p>Designed an interactive dashboard to track monthly sales, product trends, and regional performance, enabling data-driven sales strategies.</p>
+        <a href="https://link-to-deck.com" target="_blank">View Full Presentation →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Rizky | Built with ❤️ & GitHub Pages</p>
+  </footer>
+</body>
+</html>
+
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fdfdfd;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f7f8fa;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-left: 4px solid #000;
+  padding-left: 10px;
+}
+
+/* Project Cards */
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #000;
+  transition: color 0.2s ease, border 0.2s ease;
+}
+
+.project-card a:hover {
+  color: #0077b6;
+  border-bottom: 1px solid #0077b6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #777;
+  background: #f7f8fa;
+}
+
