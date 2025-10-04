@@ -8,11 +8,12 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9f9f9;
+      background: #121212; /* Dark background */
+      color: #e0e0e0;      /* Light text */
     }
     .hero {
-      background: linear-gradient(to right, #0061ff, #60efff);
-      color: black;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
       padding: 60px 20px;
       text-align: center;
     }
@@ -21,15 +22,31 @@
       font-weight: bold;
     }
     .hero p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      color: #ddd;
     }
     .card {
+      background: #1e1e1e;
+      color: #ddd;
       border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 1px solid #333;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.8);
+    }
+    .btn-primary {
+      background: #0061ff;
+      border: none;
+    }
+    .btn-primary:hover {
+      background: #0040aa;
     }
     footer {
-      background: #222;
-      color: #ccc;
+      background: #181818;
+      color: #aaa;
       padding: 20px;
       text-align: center;
     }
@@ -37,13 +54,16 @@
       color: #60efff;
       text-decoration: none;
     }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
   <!-- Hero / About Me -->
   <section class="hero">
-    <h1>Rizky | Data Analyst Portfolio</h1>
+    <h1>Muhammad Rizky Aditya | Data Analyst Portfolio</h1>
     <p>Data Analyst | Excel • SQL • Python • Tableau</p>
     <p>
       I’m a target-driven and communicative professional transitioning from a 3-year career as a barista 
@@ -56,14 +76,14 @@
 
   <!-- Projects Section -->
   <section class="container my-5">
-    <h2 class="text-center mb-4">Featured Projects</h2>
+    <h2 class="text-center mb-4 text-light">Featured Projects</h2>
     <div class="row g-4">
 
       <!-- Project 1 -->
       <div class="col-md-4">
         <div class="card h-100">
           <div class="card-body">
-            <h5 class="card-title">Business Analysis - Malay Hospitality Corp</h5>
+            <h5 class="card-title text-light">Business Analysis - Malay Hospitality Corp</h5>
             <p class="card-text">
               Conducted revenue growth analysis for 3 hotels in Malaysia. Using Python & Tableau, I identified 
               seasonal booking trends, customer segments, and pricing strategies to support the company’s target 
@@ -80,7 +100,7 @@
       <div class="col-md-4">
         <div class="card h-100">
           <div class="card-body">
-            <h5 class="card-title">RevoFinance Dashboard</h5>
+            <h5 class="card-title text-light">RevoFinance Dashboard</h5>
             <p class="card-text">
               Built an interactive Tableau dashboard analyzing user spending behaviors for a fintech app. 
               Discovered overspending trends in Education, Entertainment, and Travel categories, especially 
@@ -97,7 +117,7 @@
       <div class="col-md-4">
         <div class="card h-100">
           <div class="card-body">
-            <h5 class="card-title">RevoGrocers Sales Performance Analysis</h5>
+            <h5 class="card-title text-light">RevoGrocers Sales Performance Analysis</h5>
             <p class="card-text">
               Performed SQL & Data Studio analysis on sales performance of a grocery retail business. 
               Identified high-performing categories (Confections, Meat, Poultry) and underperforming 
