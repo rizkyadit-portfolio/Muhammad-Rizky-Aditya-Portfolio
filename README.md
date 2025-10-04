@@ -1,0 +1,54 @@
+# Muhammad Rizky Aditya Portfolio
+
+    Data Analyst | Excel • SQL • Python • Tableau
+
+  <!-- About -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a target-driven professional transitioning from a 3-year career as a barista to data analysis. 
+      With hands-on experience analyzing daily sales forecasts and inventory trends, I developed a solid 
+      foundation in data-driven decision-making. Currently, I am strengthening my technical expertise in 
+      Excel, SQL, Python, and Tableau. My strengths in collaboration, problem-solving, and communication 
+      enable me to deliver actionable insights, and I am eager to contribute meaningfully as a data analyst.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="project-card">
+      <img src="assets/project1.png" alt="Project 1 Cover">
+      <div>
+        <h3>Customer Churn Analysis</h3>
+        <p>Identified key churn factors using exploratory data analysis and predictive modeling. Recommendations improved retention strategies by 15%.</p>
+        <a href="https://link-to-deck.com" target="_blank">View Full Presentation →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/project2.png" alt="Project 2 Cover">
+      <div>
+        <h3>Hotel Booking Demand Prediction</h3>
+        <p>Built a Random Forest model to predict booking demand with 82% accuracy, helping optimize revenue management.</p>
+        <a href="https://link-to-deck.com" target="_blank">View Full Presentation →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/project3.png" alt="Project 3 Cover">
+      <div>
+        <h3>Sales Dashboard (Power BI)</h3>
+        <p>Designed an interactive dashboard to track monthly sales, product trends, and regional performance, enabling data-driven sales strategies.</p>
+        <a href="https://link-to-deck.com" target="_blank">View Full Presentation →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Rizky | Built with ❤️ & GitHub Pages</p>
+  </footer>
+</body>
+</html>
